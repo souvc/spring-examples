@@ -18,5 +18,5 @@
 
 ##样例列表
 
-- Chapter1-1-1：Spring快速入门，通过spring输出一个helloworld （XML 配置）
-- Chapter1-1-2：Spring快速入门，通过spring输出一个helloworld （注解配置）
+- [Chapter1-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-1)：Spring快速入门，通过spring输出一个helloworld （XML 配置）
+- [Chapter1-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-2)：Spring快速入门，通过spring输出一个helloworld （注解配置）
