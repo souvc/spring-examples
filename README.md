@@ -11,6 +11,26 @@
 
 作者博客：http://www.souvc.com
 
+项目环境：
+
+
+``` java
+
+ <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ </properties>
+
+<dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>4.3.3.RELEASE</version>
+    </dependency>
+</dependencies>
+
+```
+
+
 如您觉得该项目对您有用，欢迎点击右上方的 **Star** 按钮，给予支持！！
 
 如有问题，可直接提交issues：【 [地址](https://github.com/souvc/spring-examples/issues) 】
