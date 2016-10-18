@@ -60,6 +60,12 @@
 
 * VII. Integration
 
+    * Spring Scheduling Support
+	
+	    * [Chapter34-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter34-1-1): Spring2.5 + JDK Timer scheduler example
+		
+		* [Chapter34-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter34-1-2): Spring3 + Quartz 1.8.6 scheduler example
+	
 
 * VIII. Appendices
 

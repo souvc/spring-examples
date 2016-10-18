@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	 <!-- 类似事物管理一样定时任务也要委托给spring的定时工厂进行管理 -->  
+	<bean class="org.springframework.scheduling.timer.TimerFactoryBean">
+		<property name="scheduledTimerTasks">
+			<list>
+				<ref local="timerTask" />
+			</list>
+		</property>
+	</bean>
+	
+	<!-- 使用spring的时间调度管理 -->  
+    <!-- 使用此管理器必须导入的spring库为spring misc 库 -->  
+	<bean id="timerTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+	    <!-- 周期执行的任务可以是list指定的多个线程 -->  
+		<property name="timerTask" ref="schedulerTask" />
+		<!-- 执行周期 thread中的sleep -->  
+		<property name="delay" value="1000" />
+		  <!-- 在容器启动完成后的延迟执行时间 -->  
+		<property name="period" value="60000" />
+	</bean>
+	
+	<bean id="schedulerTask" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean">
+		<property name="targetObject" ref="runMeTask" />
+		<property name="targetMethod" value="printMe" />
+	</bean>
+	
+	<!-- 周期执行的类注册 -->
+	<bean id="runMeTask" class="com.souvc.spring.RunMeTask" />
+	
+
+</beans>
