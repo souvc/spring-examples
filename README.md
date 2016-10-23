@@ -69,11 +69,14 @@
             * Instantiation using an instance factory method
 			
    * 5.4. Dependencies
-        * 5.4.1. Dependency injection
+   
+        * 5.4.1. Dependency injection  （[Chapter5-5-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-4)）
+		
             * Constructor-based dependency injection
             * Setter-based dependency injection
             * Dependency resolution process
             * Examples of dependency injection
+			
         * 5.4.2. Dependencies and configuration in detail
             * Straight values (primitives, Strings, and so on)
             * References to other beans (collaborators)
