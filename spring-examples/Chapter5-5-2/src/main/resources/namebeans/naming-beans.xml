@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--Bean的命名说明-->
+    <!-- 一、不指定id，只配置必须的全限定类名，由IoC容器为其生成一个标识，客户端必须通过接口“T getBean(Class<T> requiredType)”获取Bean；-->
+    <!-- 二、指定id，必须在Ioc容器中唯一；-->
+    <!-- 三、指定name，这样name就是“标识符”，必须在Ioc容器中唯一；-->
+    <!--四、指定id和name，id就是标识符，而name就是别名，必须在Ioc容器中唯一；-->
+    <!--五、指定多个name，多个name用“,”、“;”、“ ”分割，第一个被用作标识符，其他的（alias1、alias2、alias3）是别名，所有标识符也必须在Ioc容器中唯一；-->
+    <!-- 六、使用<alias>标签指定别名，别名也必须在IoC容器中唯一-->
+
+</beans>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- 三、指定name，这样name就是“标识符”，必须在Ioc容器中唯一；-->
+    <bean name="helloWorld3" class="NamingBeans.HelloServiceImpl3"/>
+
+</beans>

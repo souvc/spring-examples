@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- 六、使用<alias>标签指定别名，别名也必须在IoC容器中唯一-->
+    <bean name="bean" class="NamingBeans.HelloServiceImpl6"/>
+    <alias alias="alias1" name="bean"/>
+    <alias alias="alias2" name="bean"/>
+
+</beans>
