@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--  利用Spring调用构造器 GregorianCalendar 创建 Calendar实例.-->
+    <bean id="calendarObj1" class="java.util.GregorianCalendar"></bean>
+
+    <!-- 自定义类 -->
+    <bean id="exampleBean" class="examples.ExampleBean"/>
+    <bean name="anotherExample" class="examples.ExampleBeanTwo"/>
+
+</beans>
