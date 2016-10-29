@@ -17,14 +17,22 @@
 ``` java
 
  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	 <org.springframework.version>4.3.3.RELEASE</org.springframework.version>
  </properties>
+
+```
+
+
+引用例子：
+
+```java 
 
 <dependencies>
     <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
-        <version>4.3.3.RELEASE</version>
+        <version>${org.springframework.version}</version>
     </dependency>
 </dependencies>
 
