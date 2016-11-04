@@ -48,11 +48,10 @@
 
 * I. Spring 快速入门
 
-    * [Chapter1-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-1)：通过spring输出一个helloworld （XML 配置）
-    * [Chapter1-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-2)：通过spring输出一个helloworld （注解配置）
+    * 通过spring输出一个helloworld （XML 配置）：[Chapter1-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-1)
+    * 通过spring输出一个helloworld （注解配置）：[Chapter1-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-2)
    
 * II. Spring 4.x 的新特性
-
 
 * III. Spring 核心技术
 
