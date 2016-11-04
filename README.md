@@ -46,35 +46,35 @@
 
 ##样例列表
 
-* I. Spring Framework
+* I. Spring 快速入门
 
-    * [Chapter1-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-1)：Spring快速入门，通过spring输出一个helloworld （XML 配置）
-    * [Chapter1-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-2)：Spring快速入门，通过spring输出一个helloworld （注解配置）
+    * [Chapter1-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-1)：通过spring输出一个helloworld （XML 配置）
+    * [Chapter1-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-2)：通过spring输出一个helloworld （注解配置）
    
-* II. What’s New in Spring Framework 4.x
+* II. Spring 4.x 的新特性
 
 
-* III. Core Technologies
+* III. Spring 核心技术
 
-   * 5.1. Introduction to the Spring IoC container and beans  （[Chapter5-5-0](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-0)）
+   * 5.1. Spring IoC 容器以及beans的介绍
    
-   * 5.2. Container overview  （[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）
+		* 测试Spring环境，多种读取spring配置文件的方法：（[Chapter5-5-0](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-0)）
    
-        * 5.2.1. Configuration metadata
-        * 5.2.2. Instantiating a container
-           * Composing XML-based configuration metadata
-        * 5.2.3. Using the container
+   * 5.2. 容器的介绍 ：（[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）
+   
+        * 5.2.1. Spring容器的配置		
+        * 5.2.2. Spring容器的实例化（可以通过多个xml文件实例化） 
+        * 5.2.3. Spring容器的使用
 		
-   * 5.3. Bean overview  
+   * 5.3. Bean 的介绍  
    
-        * 5.3.1. Naming beans （[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）
-            * Aliasing a bean outside the bean definition
+        * 5.3.1. Bean的命名（可以在bean外面定义，也可以为bean起一个别名：（[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）     
 			
-        * 5.3.2. Instantiating beans   （[Chapter5-5-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-3)）
+        * 5.3.2. 实例化bean的三种方式 ：（[Chapter5-5-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-3)）
 		
-            * Instantiation with a constructor
-            * Instantiation with a static factory method
-            * Instantiation using an instance factory method
+            * 用构造器来实例化的方式的配置。
+            * 使用静态工厂方法实例化的方式。
+            * 使用实例工厂方法实例化的方式。
 			
    * 5.4. Dependencies
    
