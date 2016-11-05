@@ -15,17 +15,10 @@
 ```
 	
 	
-##引用依赖：	
+##spring 引用依赖：	
 	
 ```java 	
     <dependencies>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
 
 		<dependency>
             <groupId>org.springframework</groupId>
@@ -39,12 +32,38 @@
             <version>${org.springframework.version}</version>
         </dependency>
 
-
+			
+		
     </dependencies>
 	
 ```	
 	
 	
+## 其他引用依赖
+
+
+```java 	
+    <dependencies>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+		<dependency>
+		  <groupId>javax.servlet</groupId>
+		  <artifactId>servlet-api</artifactId>
+		  <version>2.5</version>
+		</dependency>
+
+    </dependencies>
+	
+```	
+
+
 	
 	
 	
