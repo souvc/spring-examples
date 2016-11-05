@@ -67,9 +67,9 @@
 		
    * 5.3. Bean 的介绍  
    
-        * 5.3.1. Bean的命名以及Bean的别名：（[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）     
+        * 5.3.1. Bean的命名以及Bean的别名：（[Chapter5-3-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-1)）     
 			
-        * 5.3.2. 实例化bean的三种方式 ：（[Chapter5-5-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-3)）
+        * 5.3.2. 实例化bean的三种方式 ：（[Chapter5-3-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-2)）
 		
             * 用构造器来实例化的方式的配置。
             * 使用静态工厂方法实例化的方式。
@@ -77,7 +77,7 @@
 			
    * 5.4. 依赖
    
-        * 5.4.1. 依赖注入方式（[Chapter5-5-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-4)）
+        * 5.4.1. 依赖注入方式（[Chapter5-4-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1)）
 		
             * 构造器注入(Constructor Injection)
             * Setter注入(Setter Injection)
