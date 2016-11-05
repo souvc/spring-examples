@@ -7,6 +7,14 @@
 - Spring Reference Guide 英文版：[《Spring 参考指南》](http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/html/index.html)
 - Spring Reference Guide 中文版：[《Spring 参考指南》](https://github.com/souvc/spring-framework-4-reference/blob/master/SUMMARY.md)
 
+##Spring 各个版本的下载地址
+
+- [地址1](http://repo.springsource.org/libs-release-local/org/springframework/spring/)
+- [地址2](http://repo.spring.io/milestone/org/springframework/spring/)
+- [地址3](https://github.com/spring-projects/spring-framework/tags)
+- [地址4](http://maven.springframework.org/release/org/springframework/spring/)
+
+
 ##本项目内容为Spring 教程程序样例。
 
 作者博客：http://www.souvc.com
