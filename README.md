@@ -67,7 +67,7 @@
 		
    * 5.3. Bean 的介绍  
    
-        * 5.3.1. Bean的命名（可以在bean外面定义，也可以为bean起一个别名：（[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）     
+        * 5.3.1. Bean的命名以及Bean的别名：（[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）     
 			
         * 5.3.2. 实例化bean的三种方式 ：（[Chapter5-5-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-3)）
 		
@@ -84,20 +84,24 @@
             * Dependency resolution process
             * Examples of dependency injection
 			
-        * 5.4.2. Dependencies and configuration in detail
-            * Straight values (primitives, Strings, and so on)
-            * References to other beans (collaborators)
-            * Inner beans
-            * Collections
-            * Null and empty string values
+        * 5.4.2. 依赖和详细配置
+            * 注入基本值(primitives, Strings, and so on)
+            * 注入Bean对象
+            * 注入内部Bean对象
+            * 直接集合注入，引用方式集合注入
+            * 注入null或空字符串
             * XML shortcut with the p-namespace
             * XML shortcut with the c-namespace
             * Compound property names
+			
         * 5.4.3. Using depends-on
+		
         * 5.4.4. Lazy-initialized beans
+		
         * 5.4.5. Autowiring collaborators
             * Limitations and disadvantages of autowiring
             * Excluding a bean from autowiring
+			
         * 5.4.6. Method injection
             * Lookup method injection
             * Arbitrary method replacement
