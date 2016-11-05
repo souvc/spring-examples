@@ -57,7 +57,7 @@
 
    * 5.1. Spring IoC 容器以及beans的介绍
    
-		* 测试Spring环境，多种读取spring配置文件的方法：（[Chapter5-5-0](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-0)）
+		* 测试Spring环境，多种读取spring配置文件的方法：（[Chapter5-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-1-1)）
    
    * 5.2. 容器的介绍 ：（[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）
    
