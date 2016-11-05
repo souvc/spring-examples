@@ -55,7 +55,7 @@
 
 * III. Spring 核心技术
 
-   * 5.1. Spring IoC 容器以及beans的介绍
+   * 5.1. 实例化Spring容器
    
 		* 测试Spring环境，多种读取spring配置文件的方法：（[Chapter5-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-1-1)）
    
@@ -69,7 +69,7 @@
    
         * 5.3.1. Bean的命名以及Bean的别名：（[Chapter5-3-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-1)）     
 			
-        * 5.3.2. 实例化bean的三种方式 ：（[Chapter5-3-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-2)）
+        * 5.3.2. 利用Spring容器创建JavaBean对象（Spring支持的多种JavaBean对象创建方式）：（[Chapter5-3-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-2)）
 		
             * 用构造器来实例化的方式的配置。
             * 使用静态工厂方法实例化的方式。
@@ -105,10 +105,15 @@
         * 5.4.6. Method injection
             * Lookup method injection
             * Arbitrary method replacement
-   * 5.5. Bean scopes
-        * 5.5.1. The singleton scope
-        * 5.5.2. The prototype scope
+			
+   * 5.5. 如何控制Bean实例化
+   
+        * 5.5.1. The singleton scope [Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)
+		
+        * 5.5.2. The prototype scope [Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)
+		
         * 5.5.3. Singleton beans with prototype-bean dependencies
+		
         * 5.5.4. Request, session, and global session scopes
             * Initial web configuration
             * Request scope
@@ -119,6 +124,7 @@
         * 5.5.5. Custom scopes
             * Creating a custom scope
             * Using a custom scope
+			
    * 5.6. Customizing the nature of a bean
         * 5.6.1. Lifecycle callbacks
             * Initialization callbacks
