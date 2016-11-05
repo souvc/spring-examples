@@ -89,7 +89,7 @@
             * 注入Bean对象
             * 注入内部Bean对象
             * 直接集合注入，引用方式集合注入
-            * 注入null或空字符串
+            * 注入null或空字符串 （[Chapter5-4-2-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-5)）
             * XML shortcut with the p-namespace
             * XML shortcut with the c-namespace
             * Compound property names
