@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--五、指定多个name，多个name用“,”、“;”、“ ”分割，第一个被用作标识符，其他的（alias1、alias2、alias3）是别名，所有标识符也必须在Ioc容器中唯一；-->
+    <bean name="bean1;alias11,alias12;alias13 alias14" class="NamingBeans.HelloServiceImpl5"/>
+
+    <!-- 当指定id时，name指定的标识符全部为别名 -->
+    <bean id="bean2" name="alias21;alias22" class="NamingBeans.HelloServiceImpl5"/>
+
+</beans>

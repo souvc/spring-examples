@@ -59,7 +59,7 @@
    
 		* 测试Spring环境，多种读取spring配置文件的方法：（[Chapter5-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-1-1)）
    
-   * 5.2. 容器的介绍 ：（[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）
+   * 5.2. 容器的介绍 ：（[Chapter5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-2)）
    
         * 5.2.1. Spring容器的配置		
         * 5.2.2. Spring容器的实例化（可以通过多个xml文件实例化） 
