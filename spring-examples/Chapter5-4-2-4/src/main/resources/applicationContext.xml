@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+
+    <!-- 通过配置Spring就可以为Bean注入集合参数值。-->
+    <bean id="messagebean" class="com.souvc.spring.MessageBean">
+        <property name="someList">
+            <list>
+                <value>北京</value>
+                <value>上海</value>
+                <value>广州</value>
+            </list>
+        </property>
+
+        <property name="someSet">
+            <set>
+                <value>James Gosling</value>
+                <value>Martin fowler</value>
+                <value>Larry Ellision</value>
+            </set>
+        </property>
+
+        <property name="someMap">
+            <map>
+                <entry key="1001" value="Java语言基础"></entry>
+                <entry key="1002" value="Java Web基础"></entry>
+                <entry key="1003" value="Spring使用基础"></entry>
+            </map>
+        </property>
+
+        <property name="someProps">
+            <props>
+                <prop key="username">root</prop>
+                <prop key="password">1234</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

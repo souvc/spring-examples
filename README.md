@@ -87,9 +87,10 @@
         * 5.4.2. 依赖和详细配置
             * 注入基本值(primitives, Strings, and so on) （[Chapter5-4-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-1)）
             * 注入Bean对象
-            * 注入内部Bean对象
-            * 直接集合注入，引用方式集合注入
-            * 注入null或空字符串 （[Chapter5-4-2-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-5)）
+            * 注入内部Bean对象 
+            * 直接集合注入（[Chapter5-4-2-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4)）
+            * 引用方式集合注入 
+			* 注入null或空字符串 （[Chapter5-4-2-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-5)）
             * XML shortcut with the p-namespace
             * XML shortcut with the c-namespace
             * Compound property names
@@ -108,9 +109,9 @@
 			
    * 5.5. 如何控制Bean实例化
    
-        * 5.5.1. The singleton scope （[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）
+        * 5.5.1. 单例模式（singleton ）（[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）
 		
-        * 5.5.2. The prototype scope （[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）
+        * 5.5.2. 原型模式（prototype ）（[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）
 		
         * 5.5.3. Singleton beans with prototype-bean dependencies
 		
@@ -121,6 +122,7 @@
             * Global session scope
             * Application scope
             * Scoped beans as dependencies
+			
         * 5.5.5. Custom scopes
             * Creating a custom scope
             * Using a custom scope
@@ -143,6 +145,7 @@
         * 5.6.3. Other Aware interfaces
 		
    * 5.7. Bean definition inheritance
+   
    * 5.8. Container Extension Points
         * 5.8.1. Customizing beans using a BeanPostProcessor
             * Example: Hello World, BeanPostProcessor-style
@@ -151,6 +154,8 @@
             * Example: the Class name substitution PropertyPlaceholderConfigurer
             * Example: the PropertyOverrideConfigurer
         * 5.8.3. Customizing instantiation logic with a FactoryBean
+		
+		
    * 5.9. Annotation-based container configuration
         * 5.9.1. @Required
         * 5.9.2. @Autowired
@@ -159,6 +164,7 @@
         * 5.9.5. CustomAutowireConfigurer
         * 5.9.6. @Resource
         * 5.9.7. @PostConstruct and @PreDestroy
+		
    * 5.10. Classpath scanning and managed components
         * 5.10.1. @Component and further stereotype annotations
         * 5.10.2. Meta-annotations
@@ -168,10 +174,12 @@
         * 5.10.6. Naming autodetected components
         * 5.10.7. Providing a scope for autodetected components
         * 5.10.8. Providing qualifier metadata with annotations
+		
    * 5.11. Using JSR 330 Standard Annotations
         * 5.11.1. Dependency Injection with @Inject and @Named
         * 5.11.2. @Named: a standard equivalent to the @Component annotation
         * 5.11.3. Limitations of the standard approach
+		
    * 5.12. Java-based container configuration
         * 5.12.1. Basic concepts: @Bean and @Configuration
         * 5.12.2. Instantiating the Spring container using AnnotationConfigApplicationContext
@@ -194,6 +202,7 @@
             * Using the @Import annotation
             * Conditionally including @Configuration classes or @Beans
             * Combining Java and XML configuration
+			
    * 5.13. Environment abstraction
         * 5.13.1. Bean definition profiles
             * @Profile
@@ -203,13 +212,16 @@
         * 5.13.3. PropertySource Abstraction
         * 5.13.4. @PropertySource
         * 5.13.5. Placeholder resolution in statements
+		
    * 5.14. Registering a LoadTimeWeaver
+   
    * 5.15. Additional Capabilities of the ApplicationContext
         * 5.15.1. Internationalization using MessageSource
         * 5.15.2. Standard and Custom Events
         * 5.15.3. Convenient access to low-level resources
         * 5.15.4. Convenient ApplicationContext instantiation for web applications
         * 5.15.5. Deploying a Spring ApplicationContext as a Java EE RAR file
+		
    * 5.16. The BeanFactory
         * 5.16.1. BeanFactory or ApplicationContext?
         * 5.16.2. Glue code and the evil singleton
