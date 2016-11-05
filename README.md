@@ -11,7 +11,7 @@
 
 作者博客：http://www.souvc.com
 
-项目环境：
+项目环境：（[直接复制可依赖的配置](https://github.com/souvc/spring-examples/blob/master/dependency.md)）
 
 
 ``` java
