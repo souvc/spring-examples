@@ -108,9 +108,9 @@
 			
    * 5.5. 如何控制Bean实例化
    
-        * 5.5.1. The singleton scope [Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)
+        * 5.5.1. The singleton scope （[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）
 		
-        * 5.5.2. The prototype scope [Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)
+        * 5.5.2. The prototype scope （[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）
 		
         * 5.5.3. Singleton beans with prototype-bean dependencies
 		
@@ -126,15 +126,22 @@
             * Using a custom scope
 			
    * 5.6. Customizing the nature of a bean
+   
         * 5.6.1. Lifecycle callbacks
-            * Initialization callbacks
-            * Destruction callbacks
-            * Default initialization and destroy methods
+		
+            * Bean对象的初始化 ：（[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）
+			
+            * Bean对象的销毁 ：（[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）
+			
+            * 默认初始化和销毁的方法 （[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）
+			
             * Combining lifecycle mechanisms
             * Startup and shutdown callbacks
             * Shutting down the Spring IoC container gracefully in non-web applications
+			
         * 5.6.2. ApplicationContextAware and BeanNameAware
         * 5.6.3. Other Aware interfaces
+		
    * 5.7. Bean definition inheritance
    * 5.8. Container Extension Points
         * 5.8.1. Customizing beans using a BeanPostProcessor
