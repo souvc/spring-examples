@@ -75,12 +75,12 @@
             * 使用静态工厂方法实例化的方式。
             * 使用实例工厂方法实例化的方式。
 			
-   * 5.4. Dependencies
+   * 5.4. 依赖
    
-        * 5.4.1. Dependency injection  （[Chapter5-5-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-4)）
+        * 5.4.1. 依赖注入方式（[Chapter5-5-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-4)）
 		
-            * Constructor-based dependency injection
-            * Setter-based dependency injection
+            * 构造器注入(Constructor Injection)
+            * Setter注入(Setter Injection)
             * Dependency resolution process
             * Examples of dependency injection
 			
