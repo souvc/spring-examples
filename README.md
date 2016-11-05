@@ -85,7 +85,7 @@
             * Examples of dependency injection
 			
         * 5.4.2. 依赖和详细配置
-            * 注入基本值(primitives, Strings, and so on)
+            * 注入基本值(primitives, Strings, and so on) （[Chapter5-4-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-1)）
             * 注入Bean对象
             * 注入内部Bean对象
             * 直接集合注入，引用方式集合注入
