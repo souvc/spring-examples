@@ -15,7 +15,7 @@
 - [地址4](http://maven.springframework.org/release/org/springframework/spring/)
 
 
-##本项目内容为Spring 教程程序样例。
+##本项目内容为Spring 教程程序样例
 
 作者博客：http://www.souvc.com
 
