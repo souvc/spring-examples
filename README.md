@@ -241,12 +241,26 @@
 
 * V. Data Access
 
+   * 12. Transaction Management
+
+   * 13. DAO support
+   
+        * 基于JdbcDaoSupport类编写DAO，然后使用JdbcTemplate对象进行操作 （[Chapter13-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter13-1-1)）
+		
+        * 直接在Spring容器创建JdbcTemplate，然后注入到DAO进行操作 （[Chapter13-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter13-1-2)）
+   
+   * 14. Data access with JDBC
+   
+   * 15. Object Relational Mapping (ORM) Data Access
+   
+   * 16. Marshalling XML using O/X Mappers
+   
 
 * VI. The Web
 
-   * 17. Web MVC framework
+   * 17. Web MVC 框架
    
-   * 17.1. Introduction to Spring Web MVC framework
+   * 17.1. Spring Web MVC 框架介绍
    
         * 17.1.1. Spring web HelloWorld（XML） ：（[Chapter17-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter17-1-1)）
 		
