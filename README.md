@@ -255,7 +255,7 @@
    
         * 14.2.1. JdbcTemplate 使用案例 （[Chapter14-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter14-2-1)）
 		
-        * 14.2.2. NamedParameterJdbcTemplate 使用案例 
+        * 14.2.2. NamedParameterJdbcTemplate 使用案例 （[Chapter14-2-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter14-2-2)）
    
    * 15.Object Relational Mapping (ORM) Data Access
    
