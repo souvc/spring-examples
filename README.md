@@ -1,5 +1,21 @@
 # spring-examples
 
+Spring是一种轻量级的、非侵入式的Java/JavaEE应用框架。 
+
+Spring能干的事情很多，最基本的有以下几条：  
+
+``` java
+
+1：IoC/DI
+2：AOP
+3：对JDBC和ORM的支持
+4：服务(典型如：事务)
+5：各种技术的整合（典型如：Struts2+Spring3+Hibernate3整合，还有很多其他的技术整合，如EJB、JMS等）
+6：Web应用框架（SpringMVC）
+7：更多技术，如：Spring的Security、Spring的Web Flow、Spring的WebService等等
+
+```
+
 ##Spring 官网网站
 
 - Spring 官网：http://projects.spring.io/spring-framework/
@@ -61,7 +77,7 @@
    
 * II. Spring 4.x 的新特性
 
-* III. Spring 核心技术
+* III. Spring 核心容器部分
 
    * 5.1. 实例化Spring容器
    
@@ -239,7 +255,7 @@
 * IV. Testing
 
 
-* V. Data Access
+* V. 数据访问（Data Access）
 
    * 12.Transaction Management
 
@@ -273,7 +289,7 @@
         * 17.1.2. Spring web HelloWorld（XML+Annotation） ：（[Chapter17-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter17-1-2)）
 
 
-* VII. Integration
+* VII. 集成部分（Integration）
 
     * Spring Scheduling Support
 	
