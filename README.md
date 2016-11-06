@@ -79,9 +79,7 @@ Spring能干的事情很多，最基本的有以下几条：
 
 * III. Spring 核心容器部分
 
-   * 5.1. 实例化Spring容器
-   
-		* 测试Spring环境，多种读取spring配置文件的方法：（[Chapter5-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-1-1)）
+   * 5.1. 多种读取spring配置文件并实例化Spring容器：（[Chapter5-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-1-1)）
    
    * 5.2. 容器的介绍 ：（[Chapter5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-2)）
    
@@ -93,7 +91,7 @@ Spring能干的事情很多，最基本的有以下几条：
    
         * 5.3.1. Bean的命名以及Bean的别名：（[Chapter5-3-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-1)）     
 			
-        * 5.3.2. 利用Spring容器创建JavaBean对象（Spring支持的多种JavaBean对象创建方式）：（[Chapter5-3-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-2)）
+        * 5.3.2. Spring容器支持的多种JavaBean对象创建方式 ：（[Chapter5-3-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-2)）
 		
             * 用构造器来实例化的方式的配置。
             * 使用静态工厂方法实例化的方式。
@@ -103,8 +101,8 @@ Spring能干的事情很多，最基本的有以下几条：
    
         * 5.4.1. 依赖注入方式（[Chapter5-4-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1)）
 		
-            * 构造器注入(Constructor Injection)
-            * Setter注入(Setter Injection)
+            * 利用构造器参数实现依赖属性的注入(Constructor Injection)  （[Chapter5-4-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-1)）
+            * 利用Spring实现bean属性setter方式注入(Setter Injection)  （[Chapter5-4-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-2)）
             * Dependency resolution process
             * Examples of dependency injection
 			
