@@ -10,4 +10,18 @@
     <!-- 自定义对象-->
     <bean id="clientService"  class="examples.ClientService"  factory-method="createInstance"/>
 
+
+
+
+    <!--
+    二、使用静态工厂方式实例化Bean，使用这种方式除了指定必须的class属性，
+    还要指定factory-method属性来指定实例化Bean的方法，而且使用静态工厂方法也允许指定方法参数，
+    spring IoC容器将调用此属性指定的方法来获取Bean
+    -->
+
+    <!-- 使用静态工厂方法 -->
+    <bean id="bean3" class="examples.HelloApiStaticFactory" factory-method="newInstance">
+        <constructor-arg index="0" value="Hello Spring!"/>
+    </bean>
+
 </beans>

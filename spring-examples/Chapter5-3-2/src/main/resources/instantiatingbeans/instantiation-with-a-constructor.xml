@@ -7,8 +7,26 @@
     <!--  利用Spring调用构造器 GregorianCalendar 创建 Calendar实例.-->
     <bean id="calendarObj1" class="java.util.GregorianCalendar"></bean>
 
+
     <!-- 自定义类 -->
     <bean id="exampleBean" class="examples.ExampleBean"/>
     <bean name="anotherExample" class="examples.ExampleBeanTwo"/>
+
+
+
+    <!--
+    一、使用构造器实例化Bean：这是最简单的方式，Spring IoC容器即能使用默认空构造器也能使用有参数构造器两种方式创建Bean，
+    如以下方式指定要创建的Bean类型：
+    使用空构造器进行定义，使用此种方式，class属性指定的类必须有空构造器
+    -->
+
+    <!--使用默认构造参数-->
+    <bean name="bean1" class="examples.HelloImpl"/>
+
+    <!--使用有参数构造参数-->
+    <bean name="bean2" class="examples.HelloImpl2">
+        <!-- 指定构造器参数 -->
+        <constructor-arg index="0" value="Hello Spring!"/>
+    </bean>
 
 </beans>

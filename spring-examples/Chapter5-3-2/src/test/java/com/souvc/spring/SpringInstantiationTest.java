@@ -2,6 +2,7 @@ package com.souvc.spring;
 
 import examples.*;
 import org.junit.Test;
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -59,6 +60,20 @@ public class SpringInstantiationTest {
 
     }
 
+    //测试默认空构造器也能使用有参数构造器两种方式创建Bean
+    @Test
+    public void testInstantiatingBeanByConstructor() {
+        BeanFactory beanFactory = new ClassPathXmlApplicationContext("instantiatingbeans/instantiation-with-a-constructor.xml");
+
+        //使用默认构造器
+        HelloApi bean1 = beanFactory.getBean("bean1", HelloApi.class);
+        bean1.sayHello();
+
+        //使用有参构造器
+        HelloApi bean2 = beanFactory.getBean("bean2", HelloApi.class);
+        bean2.sayHello();
+    }
+
 
 
     /**
@@ -83,6 +98,17 @@ public class SpringInstantiationTest {
         System.out.println("clientService2:"+clientService2);
     }
 
+    //静态工厂方式实例化Bean
+    @Test
+    public void testInstantiatingBeanByStaticFactory() {
+        //使用静态工厂方法
+        BeanFactory beanFactory =new ClassPathXmlApplicationContext("instantiatingbeans/instantiation-with-a-static-factory-method.xml");
+        HelloApi bean3 = beanFactory.getBean("bean3", HelloApi.class);
+        bean3.sayHello();
+    }
+
+
+
 
     /** 测试 3. 使用实例工厂方法实例化的方式。*/
     @Test
@@ -105,6 +131,15 @@ public class SpringInstantiationTest {
 
     }
 
+
+    //使用实例工厂方法实例化Bean
+    @Test
+    public void testInstantiatingBeanByInstanceFactory() {
+        //使用实例工厂方法
+        BeanFactory beanFactory = new ClassPathXmlApplicationContext("instantiatingbeans/instantiation-using-an-instance-factory-method.xml");
+        HelloApi bean4 = beanFactory.getBean("bean4", HelloApi.class);
+        bean4.sayHello();
+    }
 
 
 }

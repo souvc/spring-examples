@@ -22,4 +22,22 @@
           factory-bean="serviceLocator"
           factory-method="createAccountServiceInstance"/>
 
+
+    <!--
+    三、使用实例工厂方法实例化Bean，使用这种方式不能指定class属性，
+    此时必须使用factory-bean属性来指定工厂Bean，factory-method属性指定实例化Bean的方法，
+    而且使用实例工厂方法允许指定方法参数，方式和使用构造器方式一样
+    -->
+
+    <!-- 1、定义实例工厂Bean -->
+    <bean id="beanInstanceFactory"   class="examples.HelloApiInstanceFactory"/>
+
+    <!-- 2、使用实例工厂Bean创建Bean -->
+    <bean id="bean4"
+          factory-bean="beanInstanceFactory"
+          factory-method="newInstance">
+        <constructor-arg index="0" value="Hello Spring!"></constructor-arg>
+    </bean>
+
+
 </beans>
