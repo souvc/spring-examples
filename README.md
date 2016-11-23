@@ -86,11 +86,21 @@ Spring能干的事情很多，最基本的有以下几条：
 * **III. Spring 核心容器部分**
 
    * 5.1. 多种读取spring配置文件并实例化Spring容器：（[Chapter5-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-1-1)）
+        
+        * ClassPathXmlApplicationContext：ApplicationContext实现，从classpath获取配置文件
+           * 一个配置文件
+           * 多个配置文件
+           * 从一个bean中加载其他的配置文件
+        * 通过Resource来获取配置文件
+        * XmlBeanFactory：BeanFactory实现，提供基本的IOC容器功能，可以从classpath或文件系统等获取资源
+        * FileSystemXmlApplicationContext：ApplicationContext实现，从文件系统获取配置文件
+             * 从绝对路径加载配置文件  从文件系统获取配置文件
+             * 从相对路径加载配置文件2  从文件系统获取配置文件
    
    * 5.2. 容器的介绍 ：（[Chapter5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-2)）
    
         * 5.2.1. Spring容器的配置		
-        * 5.2.2. Spring容器的实例化（可以通过多个xml文件实例化） 
+        * 5.2.2. Spring容器的实例化（可以通过多个xml文件实例化） 可以参考：（[Chapter5-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-1-1)）
         * 5.2.3. Spring容器的使用
 		
    * 5.3. Bean 的介绍  
