@@ -6,13 +6,13 @@ Spring能干的事情很多，最基本的有以下几条：
 
 ``` java
 
-1：IoC/DI
-2：AOP
-3：对JDBC和ORM的支持
-4：服务(典型如：事务)
-5：各种技术的整合（典型如：Struts2+Spring3+Hibernate3整合，还有很多其他的技术整合，如EJB、JMS等）
-6：Web应用框架（SpringMVC）
-7：更多技术，如：Spring的Security、Spring的Web Flow、Spring的WebService等等
+1. IoC/DI
+2. AOP
+3. 对JDBC和ORM的支持
+4. 服务(典型如：事务)
+5. 各种技术的整合（典型如：Struts2+Spring3+Hibernate3整合，还有很多其他的技术整合，如EJB、JMS等）
+6. Web应用框架（SpringMVC）
+7. 更多技术，如：Spring的Security、Spring的Web Flow、Spring的WebService等等
 
 ```
 
@@ -37,28 +37,34 @@ Spring能干的事情很多，最基本的有以下几条：
 
 项目环境：（[直接复制可依赖的配置](https://github.com/souvc/spring-examples/blob/master/dependency.md)）
 
+引用例子：
 
 ``` java
 
+ <!--统一版本号-->
  <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	 <org.springframework.version>4.3.3.RELEASE</org.springframework.version>
  </properties>
-
-```
-
-
-引用例子：
-
-```java 
-
-<dependencies>
+ 
+ <dependencies>
+ 
+    <!-- Spring环境支持-->
+     <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-context</artifactId>
+         <version>${org.springframework.version}</version>
+     </dependency>  
+      
+    <!-- junit测试环境支持-->
     <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>${org.springframework.version}</version>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
     </dependency>
-</dependencies>
+      
+ </dependencies>
 
 ```
 
@@ -70,14 +76,14 @@ Spring能干的事情很多，最基本的有以下几条：
 
 ##样例列表
 
-* I. Spring 快速入门
+* **I. Spring 快速入门**
 
     * 通过spring输出一个helloworld （XML 配置）：[Chapter1-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-1)
     * 通过spring输出一个helloworld （注解配置）：[Chapter1-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter1-1-2)
    
-* II. Spring 4.x 的新特性
+* **II. Spring 4.x 的新特性**
 
-* III. Spring 核心容器部分
+* **III. Spring 核心容器部分**
 
    * 5.1. 多种读取spring配置文件并实例化Spring容器：（[Chapter5-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-1-1)）
    
@@ -250,10 +256,10 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.16.2. Glue code and the evil singleton
 	
 
-* IV. Testing
+* **IV. Testing**
 
 
-* V. 数据访问（Data Access）
+* **V. 数据访问（Data Access）**
 
    * 12.Transaction Management
 
@@ -276,7 +282,7 @@ Spring能干的事情很多，最基本的有以下几条：
    * 16.Marshalling XML using O/X Mappers
    
 
-* VI. The Web
+* **VI. The Web**
 
    * 17.Web MVC 框架
    
@@ -287,7 +293,7 @@ Spring能干的事情很多，最基本的有以下几条：
         * 17.1.2. Spring web HelloWorld（XML+Annotation） ：（[Chapter17-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter17-1-2)）
 
 
-* VII. 集成部分（Integration）
+* **VII. 集成部分（Integration）**
 
     * Spring Scheduling Support
 	
@@ -296,6 +302,6 @@ Spring能干的事情很多，最基本的有以下几条：
 		* [Chapter34-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter34-1-2): Spring3 + Quartz 1.8.6 scheduler example
 	
 
-* VIII. Appendices
+* **VIII. Appendices**
 
 
