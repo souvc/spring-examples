@@ -195,7 +195,7 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.8.3. Customizing instantiation logic with a FactoryBean
 		
 		
-   * 5.9. Annotation-based container configuration
+   * 5.9. Spring 基本注解配置
         * 5.9.1. @Required
         * 5.9.2. @Autowired
         * 5.9.3. Fine-tuning annotation-based autowiring with qualifiers
@@ -204,7 +204,7 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.9.6. @Resource
         * 5.9.7. @PostConstruct and @PreDestroy
 		
-   * 5.10. Classpath scanning and managed components
+   * 5.10. 类扫描以及注解管理
         * 5.10.1. @Component and further stereotype annotations
         * 5.10.2. Meta-annotations
         * 5.10.3. Automatically detecting classes and registering bean definitions
@@ -214,19 +214,21 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.10.7. Providing a scope for autodetected components
         * 5.10.8. Providing qualifier metadata with annotations
 		
-   * 5.11. Using JSR 330 Standard Annotations
+   * 5.11. 使用JSR 330标准注解
         * 5.11.1. Dependency Injection with @Inject and @Named
         * 5.11.2. @Named: a standard equivalent to the @Component annotation
         * 5.11.3. Limitations of the standard approach
 		
-   * 5.12. Java-based container configuration
+   * 5.12. 基于java的容器配置
         * 5.12.1. Basic concepts: @Bean and @Configuration
-        * 5.12.2. Instantiating the Spring container using AnnotationConfigApplicationContext
+        
+        * 5.12.2. 实例化 Spring 容器类 AnnotationConfigApplicationContext
             * Simple construction
             * Building the container programmatically using register(Class<?>…)
             * Enabling component scanning with scan(String…)
             * Support for web applications with AnnotationConfigWebApplicationContext
-        * 5.12.3. Using the @Bean annotation
+            
+        * 5.12.3. @Bean 注解
             * Declaring a bean
             * Receiving lifecycle callbacks
             * Specifying bean scope
@@ -271,9 +273,9 @@ Spring能干的事情很多，最基本的有以下几条：
 
 * **V. 数据访问（Data Access）**
 
-   * 12.Transaction Management
+   * 12.事务管理
 
-   * 13.DAO support
+   * 13.DAO 支持
    
         * 基于JdbcDaoSupport类编写DAO，然后使用JdbcTemplate对象进行操作 （[Chapter13-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter13-1-1)）
 		
@@ -281,7 +283,7 @@ Spring能干的事情很多，最基本的有以下几条：
    
    * 14.Data access with JDBC
    
-   * 14.2. Using the JDBC core classes to control basic JDBC processing and error handling
+   * 14.2. Spring JDBC 的使用
    
         * 14.2.1. JdbcTemplate 使用案例 （[Chapter14-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter14-2-1)）
 		
