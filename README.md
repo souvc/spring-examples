@@ -123,11 +123,11 @@ Spring能干的事情很多，最基本的有以下几条：
             * Examples of dependency injection
 			
         * 5.4.2. 依赖和详细配置
-            * 注入基本值(primitives, Strings, and so on) （[Chapter5-4-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-1)）
-            * 注入Bean对象
+            * 注入基本值(基本类型, 字符串等) （[Chapter5-4-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-1)）
+            * 注入Bean对象（注入Bean属性）
             * 注入内部Bean对象 
-            * 直接集合注入（[Chapter5-4-2-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4)）
-            * 引用方式集合注入 （[Chapter5-4-2-4-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-1)）
+            * 直接集合（List，Set，Map，Property）注入（[Chapter5-4-2-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4)）
+            * 引用方式集合（List，Set，Map，Property）注入 （[Chapter5-4-2-4-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-1)）
 			* 注入null或空字符串 （[Chapter5-4-2-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-5)）
             * 表达式注入 （[Chapter5-4-2-6](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-6)）
 			* XML shortcut with the p-namespace
@@ -154,11 +154,11 @@ Spring能干的事情很多，最基本的有以下几条：
 		
         * 5.5.3. Singleton beans with prototype-bean dependencies
 		
-        * 5.5.4. Request, session, and global session scopes
+        * 5.5.4. Bean 的作用域 （Request, session, and global session scopes)
             * Initial web configuration
-            * Request scope
-            * Session scope
-            * Global session scope
+            * Request scope(在一次HTTP请求中，每个Bean定义对应一个实例。该作用域仅在基于Web的Spring上下文（例如SpringMVC中才有效）)
+            * Session scope(在一次HTTP Session请求中，每个Bean定义对应一个实例。该作用域仅在基于Web的Spring上下文（例如SpringMVC中才有效）)
+            * Global session scope(在一次HTTP 全局Session请求中，每个Bean定义对应一个实例。该作用域仅在Portlet上下文（例如SpringMVC中才有效）)
             * Application scope
             * Scoped beans as dependencies
 			
@@ -168,7 +168,7 @@ Spring能干的事情很多，最基本的有以下几条：
 			
    * 5.6. Customizing the nature of a bean
    
-        * 5.6.1. Lifecycle callbacks
+        * 5.6.1. 生命周期回调 
 		
             * Bean对象的初始化 ：（[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）
 			
@@ -220,7 +220,8 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.11.3. Limitations of the standard approach
 		
    * 5.12. 基于java的容器配置
-        * 5.12.1. Basic concepts: @Bean and @Configuration
+   
+        * 5.12.1. @Bean and @Configuration 的使用 [Chapter5-12-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-12-1)
         
         * 5.12.2. 实例化 Spring 容器类 AnnotationConfigApplicationContext
             * Simple construction
@@ -235,12 +236,14 @@ Spring能干的事情很多，最基本的有以下几条：
             * Customizing bean naming
             * Bean aliasing
             * Bean description
+            
         * 5.12.4. Using the @Configuration annotation
             * Injecting inter-bean dependencies
             * Lookup method injection
             * Further information about how Java-based configuration works internally
-        * 5.12.5. Composing Java-based configurations
-            * Using the @Import annotation
+            
+        * 5.12.5. 注解组合使用
+            * Using the @Import annotation  [Chapter5-12-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-12-5)
             * Conditionally including @Configuration classes or @Beans
             * Combining Java and XML configuration
 			
