@@ -105,7 +105,14 @@ Spring能干的事情很多，最基本的有以下几条：
 		
    * 5.3. Bean 的介绍  
    
-        * 5.3.1. Bean的命名以及Bean的别名：（[Chapter5-3-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-1)）     
+        * 5.3.1. Bean的命名以及Bean的别名：（[Chapter5-3-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-1)）  
+
+            * 5.3.1.1 不指定id，只配置必须的全限定类名，由IoC容器为其生成一个标识，客户端必须通过接口“T getBean(Class<T> requiredType)”获取Bean
+            * 5.3.1.2 指定id，必须在Ioc容器中唯一
+            * 5.3.1.3 指定name，这样name就是“标识符”，必须在Ioc容器中唯一
+            * 5.3.1.4 指定id和name，id就是标识符，而name就是别名，必须在Ioc容器中唯一
+            * 5.3.1.5 指定多个name，多个name用“,”、“;”、“ ”分割，第一个被用作标识符，其他的（alias1、alias2、alias3）是别名，所有标识符也必须在Ioc容器中唯一
+            * 5.3.1.6 使用<alias>标签指定别名，别名也必须在IoC容器中唯一	
 			
         * 5.3.2. Spring容器支持的多种JavaBean对象创建方式 ：（[Chapter5-3-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-3-2)）
 		
