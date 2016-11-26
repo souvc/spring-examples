@@ -121,10 +121,9 @@ Spring能干的事情很多，最基本的有以下几条：
             * 利用Spring实现bean属性setter方式注入(Setter Injection)  （[Chapter5-4-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-2)）
             * Spring通过Name属性进行自动注入(Spring-AutoWiring-by-Name) （[Chapter5-4-1-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-3)）
 			* Spring通过Type属性进行自动注入(Spring-AutoWiring-by-Type)  （[Chapter5-4-1-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-4)）
-			* Spring通过Constructor进行自动注入(Spring-AutoWiring-by-Constructor)  （[Chapter5-4-1-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-5)）
-			* Spring通过Auto-Detect属性进行自动注入(Spring-AutoWiring-by-Auto-Detect)  （[Chapter5-4-1-6](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-6)）
-			* Dependency resolution process
-            * Examples of dependency injection
+			* Spring通过Constructor进行自动注入(Spring-AutoWiring-by-Constructor) （[Chapter5-4-1-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-5)）
+			* Spring通过Auto-Detect进行自动注入(Spring-AutoWiring-by-Auto-Detect) （[Chapter5-4-1-6](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-6)）
+			* Spring通过Qualifier进行自动注入(Spring-AutoWiring-Qualifier) （[Chapter5-4-1-7](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-7)）
 			
         * 5.4.2. 依赖和详细配置
             * 注入基本值(基本类型, 字符串等) （[Chapter5-4-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-1)）
