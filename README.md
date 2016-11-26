@@ -119,7 +119,9 @@ Spring能干的事情很多，最基本的有以下几条：
 		
             * 利用构造器参数实现依赖属性的注入(Constructor Injection)  （[Chapter5-4-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-1)）
             * 利用Spring实现bean属性setter方式注入(Setter Injection)  （[Chapter5-4-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-2)）
-            * Dependency resolution process
+            * Spring通过Name属性进行自动注入(Spring-AutoWiring-by-Name) （[Chapter5-4-1-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-3)
+			* Spring通过Type属性进行自动注入(Spring-AutoWiring-by-Type)  （[Chapter5-4-1-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-4)
+			* Dependency resolution process
             * Examples of dependency injection
 			
         * 5.4.2. 依赖和详细配置
