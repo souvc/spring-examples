@@ -5,15 +5,13 @@ Spring是一种轻量级的、非侵入式的Java/JavaEE应用框架。
 Spring能干的事情很多，最基本的有以下几条：  
 
 ``` java
-
-1. IoC/DI
-2. AOP
-3. 对JDBC和ORM的支持
-4. 服务(典型如：事务)
-5. 各种技术的整合（典型如：Struts2+Spring3+Hibernate3整合，还有很多其他的技术整合，如EJB、JMS等）
-6. Web应用框架（SpringMVC）
-7. 更多技术，如：Spring的Security、Spring的Web Flow、Spring的WebService等等
-
+（1） IoC/DI
+（2） AOP
+（3） 对JDBC和ORM的支持
+（4） 服务(典型如：事务)
+（5） 各种技术的整合（典型如：Struts2+Spring3+Hibernate3整合，还有很多其他的技术整合，如EJB、JMS等）
+（6） Web应用框架（SpringMVC）
+（7） 更多技术，如：Spring的Security、Spring的Web Flow、Spring的WebService等等
 ```
 
 ##Spring 官网网站
@@ -32,8 +30,6 @@ Spring能干的事情很多，最基本的有以下几条：
 
 
 ##本项目内容为Spring 教程程序样例
-
-作者博客：http://www.souvc.com
 
 项目环境：（[直接复制可依赖的配置](https://github.com/souvc/spring-examples/blob/master/dependency.md)）
 
@@ -71,7 +67,13 @@ Spring能干的事情很多，最基本的有以下几条：
 
 如您觉得该项目对您有用，欢迎点击右上方的 **Star** 按钮，给予支持！！
 
+作者博客：http://www.souvc.com
+
 如有问题，可直接提交issues：【 [地址](https://github.com/souvc/spring-examples/issues) 】
+
+也可以关注公众号进行咨询：
+
+<img src="https://github.com/souvc/spring-examples/blob/master/o_qrcode_for_gh_228cd30523bc_258.jpg?raw=true" width="200px" height="200px;" />
 
 
 ##样例列表
@@ -329,4 +331,10 @@ Spring能干的事情很多，最基本的有以下几条：
 
 * **VIII. Appendices**
 
+
+## 打赏支持
+
+如您觉得该项目对您有用，欢迎通过支付宝或是微信扫一扫，给整理者一个赞赏！！
+
+<img src="https://github.com/souvc/spring-examples/blob/master/WeChat.png?raw=true" width="200px" height="200px;" alt="微信支付支持"/> <img src="https://github.com/souvc/spring-examples/blob/master/alipay.jpg?raw=true" width="200px" height="200px;" alt="支付宝支付支持"/>
 
