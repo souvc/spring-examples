@@ -133,7 +133,7 @@ Spring能干的事情很多，最基本的有以下几条：
             * Spring通过Constructor进行自动注入(Spring-AutoWiring-by-Constructor) （[Chapter5-4-1-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-5)）
             * Spring通过Auto-Detect进行自动注入(Spring-AutoWiring-by-Auto-Detect) （[Chapter5-4-1-6](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-6)）
             * Spring通过Qualifier进行自动注入(Spring-AutoWiring-Qualifier) （[Chapter5-4-1-7](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-7)）
-            * Spring通过Autowired-Annotation进行自动注入(Spring-Autowired-Annotation) （Chapter5-4-1-8）（[Chapter5-4-1-8](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-8)）
+            * Spring通过Autowired-Annotation进行自动注入(Spring-Autowired-Annotation) （[Chapter5-4-1-8](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-1-8)）
 			
         * 5.4.2. 依赖和详细配置
             * 注入基本值(基本类型, 字符串等) （[Chapter5-4-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-1)）
@@ -196,7 +196,7 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.6.2. ApplicationContextAware and BeanNameAware
         * 5.6.3. Other Aware interfaces
 		
-   * 5.7. Bean definition inheritance
+   * 5.7. Spring 类继承配置（Spring-Bean-Inheritance） （[Chapter5-7-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-7-1)）
    
    * 5.8. Container Extension Points
         * 5.8.1. Customizing beans using a BeanPostProcessor

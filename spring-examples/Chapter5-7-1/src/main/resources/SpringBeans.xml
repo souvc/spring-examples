@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="BaseCustomerMalaysia" abstract="true">
+		<property name="country" value="中国广东省广州市" />
+	</bean>
+
+	<bean id="CustomerBean" parent="BaseCustomerMalaysia" class="com.souvc.spring.Customer">
+		<property name="action" value="购买" />
+		<property name="type" value="1" />
+	</bean>
+
+</beans>
