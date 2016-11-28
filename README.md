@@ -202,7 +202,7 @@ Spring能干的事情很多，最基本的有以下几条：
 		
    * 5.7. Spring 类继承配置（Spring-Bean-Inheritance） （[Chapter5-7-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-7-1)）
    
-   * 5.8. Container Extension Points
+   * 5.8. Spring 容器拓展点 
         * 5.8.1. Customizing beans using a BeanPostProcessor
             * Example: Hello World, BeanPostProcessor-style
             * Example: The RequiredAnnotationBeanPostProcessor
@@ -224,7 +224,7 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.9.7. @PostConstruct and @PreDestroy  （[Chapter5-9-7](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-9-7)）
 		
    * 5.10. 类扫描以及注解管理
-        * 5.10.1. @Component and further stereotype annotations
+        * 5.10.1. Spring自动扫描注解（Spring-Auto-Scan-Component） （[Chapter5-10-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-10-1)）
         * 5.10.2. Meta-annotations
         * 5.10.3. Automatically detecting classes and registering bean definitions
         * 5.10.4. Using filters to customize scanning
