@@ -144,7 +144,7 @@ Spring能干的事情很多，最基本的有以下几条：
                  * Spring-ListFactoryBean-Example （[Chapter5-4-2-4-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-2)）
                  * Spring-MapFactoryBean-Example  （[Chapter5-4-2-4-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-3)）
                  * Spring-SetFactoryBean-Example  （[Chapter5-4-2-4-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-4)）
-                 * Spring-Collection-Example （[Chapter5-4-2-4-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-5)）
+                 * Spring-Collection-Example（List，Set，Map，Property） （[Chapter5-4-2-4-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-5)）
                                                                  
             * 注入null或空字符串 （[Chapter5-4-2-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-5)）
             * 表达式注入 （[Chapter5-4-2-6](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-6)）
@@ -215,7 +215,7 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.9.4. Using generics as autowiring qualifiers
         * 5.9.5. CustomAutowireConfigurer
         * 5.9.6. @Resource
-        * 5.9.7. @PostConstruct and @PreDestroy
+        * 5.9.7. @PostConstruct and @PreDestroy  （[Chapter5-9-7](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-9-7)）
 		
    * 5.10. 类扫描以及注解管理
         * 5.10.1. @Component and further stereotype annotations
