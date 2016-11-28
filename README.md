@@ -188,8 +188,9 @@ Spring能干的事情很多，最基本的有以下几条：
 		
             * Bean对象的初始化和销毁的方法 （init-method="init" destroy-method="destroy"）：（[Chapter5-6-1](https://github.com/souvc/spring-examples/blob/master/spring-examples/Chapter5-6-1/src/main/resources/applicationContext.xml)）						
             * 全局设置初始化和销毁的方法（default-init-method="init" default-destroy-method="destroy" default-lazy-init="true"） （[Chapter5-6-1](https://github.com/souvc/spring-examples/blob/master/spring-examples/Chapter5-6-1/src/main/resources/applicationContext2.xml)）
-            * 自定义初始化和销毁的方法（init-method="initIt" destroy-method="cleanUp"） （[Chapter5-6-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-2)）			
-            * Combining lifecycle mechanisms
+            * 自定义初始化和销毁的方法（init-method="initIt" destroy-method="cleanUp"） （[Chapter5-6-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-2)）	
+            * 实现 InitializingBean, DisposableBean 达到初始化和销毁的bean的作用（implements InitializingBean, DisposableBean） （[Chapter5-6-1-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-3)）				
+            * Combining lifecycle mechanisms 
             * Startup and shutdown callbacks
             * Shutting down the Spring IoC container gracefully in non-web applications
 			
