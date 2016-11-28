@@ -227,7 +227,7 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.10.1. Spring自动扫描注解（Spring-Auto-Scan-Component） （[Chapter5-10-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-10-1)）
         * 5.10.2. Meta-annotations
         * 5.10.3. Automatically detecting classes and registering bean definitions
-        * 5.10.4. Using filters to customize scanning
+        * 5.10.4. 自定义过滤器扫描（Spring-Filter-Auto-Scan）  （[Chapter5-10-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-10-4)）
         * 5.10.5. Defining bean metadata within components
         * 5.10.6. Naming autodetected components
         * 5.10.7. Providing a scope for autodetected components
