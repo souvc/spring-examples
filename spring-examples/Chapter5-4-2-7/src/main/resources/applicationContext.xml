@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <!-- 1. Normal way  正常配置  -->
+        <bean id="fileNameGenerator" class="com.souvc.spring.FileNameGenerator">
+            <property name="name">
+                <value>souvc</value>
+            </property>
+            <property name="type">
+                <value>txt</value>
+            </property>
+        </bean>
+
+</beans>

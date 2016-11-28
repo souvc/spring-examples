@@ -148,7 +148,10 @@ Spring能干的事情很多，最基本的有以下几条：
                                                                  
             * 注入null或空字符串 （[Chapter5-4-2-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-5)）
             * 表达式注入 （[Chapter5-4-2-6](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-6)）
-            * XML shortcut with the p-namespace
+            * XML shortcut with the p-namespace  （[Chapter5-4-2-7](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-7)）
+                 * 正常配置 
+                 * Shortcut  短标签模式
+                 * P 标签 				 
             * XML shortcut with the c-namespace
             * Compound property names
 			

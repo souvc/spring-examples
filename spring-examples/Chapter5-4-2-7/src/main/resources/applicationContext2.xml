@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+    <!-- 2. Shortcut  短标签模式 -->
+
+    <bean id="fileNameGenerator" class="com.souvc.spring.FileNameGenerator">
+        <property name="name" value="souvc" />
+        <property name="type" value=".jpg" />
+    </bean>
+
+</beans>
