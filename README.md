@@ -206,9 +206,11 @@ Spring能干的事情很多，最基本的有以下几条：
         * 5.8.1. Customizing beans using a BeanPostProcessor
             * Example: Hello World, BeanPostProcessor-style
             * Example: The RequiredAnnotationBeanPostProcessor
-        * 5.8.2. Customizing configuration metadata with a BeanFactoryPostProcessor
-            * Example: the Class name substitution PropertyPlaceholderConfigurer
-            * Example: the PropertyOverrideConfigurer
+			
+        * 5.8.2. 通过 BeanFactoryPostProcessor 自定义配置文件
+            * PropertyPlaceholderConfigurer加载配置文件的用法 （[Chapter5-8-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-8-2-1)）
+            * PropertyOverrideConfigurer加载配置文件的用法 （[Chapter5-8-2-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-8-2-2)）
+			
         * 5.8.3. Customizing instantiation logic with a FactoryBean
 		
 		

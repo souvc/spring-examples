@@ -1,0 +1,53 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!--
+  		PropertyOverrideConfigurer的属性文件指定的信息可以直接覆盖Spring配置文件中原默认值（不管这个属性是否使用了占位符以及是否存在）。
+        ignoreInvalidKeys用来决定是否忽略不符合beanName.filedName这种规范的key，默认值是false，这个参数主要用来满足一个properties文件中可以放置任意类型的key。
+
+        与 PropertyPlaceholderConfigurer 不同的是: PropertyOverrideConfigurer 利用属性文件的相关信息，覆盖 XML 配置文件中定义。
+        即 PropertyOverrideConfigurer允许 XML 配置文件中有默认的配置信息。
+        如果 PropertyOverrideConfigurer 的属性文件有对应配置信息，则 XML 文件中的配置信息被覆盖:否则，直接使用 XML 文件中的配置信息。
+    -->
+
+
+	<bean id="overrideProperties" class="org.springframework.beans.factory.config.PropertyOverrideConfigurer">
+		<property name="locations" value="classpath:person.properties"></property>
+		<!--<property name="localOverride" value="true" />
+		<property name="properties">
+			<bean class="java.lang.System" factory-method="getProperties" />
+		</property>
+		<property name="ignoreInvalidKeys" value="true" />
+		<property name="order" value="2" />-->
+	</bean>
+
+	<bean id="chinese" class="com.souvc.spring.Chinese">
+		<property name="age" value="${person.age}"></property>
+		<property name="name" value="${person.name}"></property>
+	</bean>
+
+
+
+
+	<!-- 配置一个属性占位符beanoApplictionContext能自动识别PropertyPlaceholderConfigurer bean
+	<bean id="propertyOverrider"  class= "org.springframework.beans.factory.config.PropertyOverrideConfigurer">
+		<property name="locations">
+			<list>
+				<value>dbconn.properties</value> //可以写多个
+			</list>
+		</property>
+	</bean>
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" destroy-method="close">
+		<property name="driverClassName" value="dd"/>
+		<property name="url" value="xx"/>
+		<property name="username" value="dd"/>
+		<property name="password" value="dd"/>
+	</bean>
+		-->
+
+
+
+
+</beans>

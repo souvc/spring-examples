@@ -1,0 +1,77 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!--
+	   PropertyPlaceholderConfigurer是负责读取location属性配置的的properties属性文件里的属性值，并将这些属性值设置成spring配置文件中的占位符里。
+       该类通过设置启用systemPropertiesMode和searchSystemEnvironment属性来控制占位符的值是否会到JVM系统属性（System.getProperty()）和环境变量（System.getenv()）中寻找。
+        SystemPropertiesModeName属性用来指定系统变量（System.getProperty）是否覆盖proprties文件。默认是在配置文件里找不到时使用。
+       三个选项分别是：
+           SYSTEM_PROPERTIES_MODE_NEVER（不覆盖）
+           SYSTEM_PROPERTIES_MODE_FALLBACK（默认值，不存在时覆盖）
+           SYSTEM_PROPERTIES_MODE_OVERRIDE（覆盖）
+           searchSystemEnvironment属性的默认值为true，即允许环境变量覆盖properties中的值。
+    -->
+
+
+		<bean id="placeholderProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" depends-on="environment">
+			<property name="locations" value="classpath:person.properties"></property>
+			<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+			<property name="ignoreUnresolvablePlaceholders" value="true" />
+			<property name="order" value="1" />
+		</bean>
+		<bean id="chinese" class="com.souvc.spring.Chinese">
+			<property name="age" value="${person.age}"></property>
+			<property name="name" value="${person.name}"></property>
+		</bean>
+
+
+
+	<!-- （1）配置单个properties文件： -->
+	<!--<bean id="propertyConfigurerForWZ" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>classpath:/spring/properties/jdbc.properties</value>
+		</property>
+	</bean>-->
+
+	<!--（2）配置多个properties文件时，使用locations属性：-->
+	<!--<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:/spring/properties/jdbc.properties</value>
+				<value>/WEB-INF/conf/spring/system.properties</value>
+			</list>
+		</property>
+	</bean>-->
+
+	<!-- （3）分散多个properties文件配置： -->
+	<!-- spring-propertyConfig1.xml ：-->
+	<!--<bean id="propertyConfigurerForProject1" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="order" value="1" />
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+		<property name="location">
+			<value>classpath:/spring/include/dbQuery.properties</value>
+		</property>
+	</bean>-->
+
+	<!-- spring-propertyConfig2.xml ：-->
+	<!--<bean id="propertyConfigurerForProject2" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="order" value="2" />
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+		<property name="locations">
+			<list>
+				<value>classpath:/spring/properties/jdbc.properties</value>
+				<value>/WEB-INF/conf/spring/system.properties</value>
+			</list>
+		</property>
+	</bean>-->
+
+	<!--
+	参数说明：
+	order ：属性代表其加载顺序；
+	ignoreUnresolvablePlaceholders ： 是否忽略不可解析的Placeholder，如配置了多个PropertyPlaceholderConfigurer，则需设置为true。
+-->
+
+
+</beans>
