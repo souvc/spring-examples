@@ -139,11 +139,16 @@ Spring能干的事情很多，最基本的有以下几条：
             * 注入基本值(基本类型, 字符串等) （[Chapter5-4-2-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-1)）
             * 注入Bean对象（注入Bean属性）
             * 注入内部Bean对象 
-            * 直接集合（List，Set，Map，Property）注入（[Chapter5-4-2-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4)）
-            * 引用方式集合（List，Set，Map，Property）注入 （[Chapter5-4-2-4-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-1)）
-			* 注入null或空字符串 （[Chapter5-4-2-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-5)）
+            * 集合（List，Set，Map，Property）注入（[Chapter5-4-2-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4)）
+                 * 引用方式集合（List，Set，Map，Property）注入 （[Chapter5-4-2-4-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-1)）
+                 * Spring-ListFactoryBean-Example （[Chapter5-4-2-4-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-2)）
+                 * Spring-MapFactoryBean-Example  （[Chapter5-4-2-4-3](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-3)）
+                 * Spring-SetFactoryBean-Example  （[Chapter5-4-2-4-4](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-4)）
+                 * Spring-Collection-Example （[Chapter5-4-2-4-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-4-5)）
+                                                                 
+            * 注入null或空字符串 （[Chapter5-4-2-5](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-5)）
             * 表达式注入 （[Chapter5-4-2-6](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-4-2-6)）
-			* XML shortcut with the p-namespace
+            * XML shortcut with the p-namespace
             * XML shortcut with the c-namespace
             * Compound property names
 			
@@ -161,10 +166,8 @@ Spring能干的事情很多，最基本的有以下几条：
 			
    * 5.5. 如何控制Bean实例化
    
-        * 5.5.1. 单例模式（singleton ）（[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）
-		
+        * 5.5.1. 单例模式（singleton ）（[Chapter5-5-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-1)）		
         * 5.5.2. 原型模式（prototype ）（[Chapter5-5-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-5-2)）
-		
         * 5.5.3. Singleton beans with prototype-bean dependencies
 		
         * 5.5.4. Bean 的作用域 （Request, session, and global session scopes)
@@ -183,12 +186,9 @@ Spring能干的事情很多，最基本的有以下几条：
    
         * 5.6.1. 生命周期回调 
 		
-            * Bean对象的初始化 ：（[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）
-			
-            * Bean对象的销毁 ：（[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）
-			
-            * 默认初始化和销毁的方法 （[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）
-			
+            * Bean对象的初始化 ：（[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）			
+            * Bean对象的销毁 ：（[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）			
+            * 默认初始化和销毁的方法 （[Chapter5-6-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter5-6-1)）			
             * Combining lifecycle mechanisms
             * Startup and shutdown callbacks
             * Shutting down the Spring IoC container gracefully in non-web applications
@@ -325,9 +325,9 @@ Spring能干的事情很多，最基本的有以下几条：
 
     * Spring Scheduling Support
 	
-	    * [Chapter34-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter34-1-1): Spring2.5 + JDK Timer scheduler example
+	    * Spring2.5 + JDK Timer scheduler example: [Chapter34-1-1](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter34-1-1) 
 		
-		* [Chapter34-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter34-1-2): Spring3 + Quartz 1.8.6 scheduler example
+		* Spring3 + Quartz 1.8.6 scheduler example: [Chapter34-1-2](https://github.com/souvc/spring-examples/tree/master/spring-examples/Chapter34-1-2)
 	
 
 * **VIII. Appendices**
